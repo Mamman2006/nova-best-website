@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillHub — Find the right freelancer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Skill<span>Hub</span></div>
+    <nav>
+      <a href="#">Explore</a>
+      <a href="#">How it works</a>
+      <a href="#">Become a seller</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="login">Log in</button>
+      <button class="join">Join</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">FREELANCE MARKETPLACE</p>
+        <h1>Find the right talent for your next <em>big idea.</em></h1>
+        <p class="hero-text">Connect with skilled freelancers for design, writing, technology, marketing and more.</p>
+        <form class="search-box" id="searchForm">
+          <input id="searchInput" type="text" placeholder="What service are you looking for?">
+          <button type="submit">Search</button>
+        </form>
+        <div class="popular">
+          <span>Popular:</span>
+          <button>Logo Design</button>
+          <button>Web Development</button>
+          <button>Video Editing</button>
+          <button>Data Entry</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE SKILLS</p>
+          <h2>Popular categories</h2>
+        </div>
+        <a href="#">See all →</a>
+      </div>
+
+      <div class="categories">
+        <button class="category"><span>🎨</span><b>Graphics & Design</b><small>2,400+ services</small></button>
+        <button class="category"><span>💻</span><b>Programming & Tech</b><small>1,900+ services</small></button>
+        <button class="category"><span>✍️</span><b>Writing & Translation</b><small>1,300+ services</small></button>
+        <button class="category"><span>📈</span><b>Digital Marketing</b><small>1,100+ services</small></button>
+        <button class="category"><span>🎬</span><b>Video & Animation</b><small>900+ services</small></button>
+        <button class="category"><span>📊</span><b>Data & Business</b><small>700+ services</small></button>
+      </div>
+    </section>
+
+    <section class="section light">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TOP SERVICES</p>
+          <h2>Popular services</h2>
+        </div>
+        <a href="#">View all →</a>
+      </div>
+      <div class="gigs" id="gigGrid">
+        <article class="gig" data-title="modern logo design">
+          <div class="gig-image gradient-one">LOGO</div>
+          <div class="gig-body">
+            <div class="seller"><div class="avatar">AD</div><div><b>Alex Designs</b><small>Top Rated Seller</small></div></div>
+            <h3>I will create a modern and professional logo for your brand</h3>
+            <div class="rating">★ 4.9 <span>(128)</span></div>
+            <div class="price">Starting at <strong>$15</strong></div>
+          </div>
+        </article>
+
+        <article class="gig" data-title="website development">
+          <div class="gig-image gradient-two">&lt;/&gt;</div>
+          <div class="gig-body">
+            <div class="seller"><div class="avatar">MK</div><div><b>Mike Codes</b><small>Level 2 Seller</small></div></div>
+            <h3>I will build a responsive website for your business</h3>
+            <div class="rating">★ 5.0 <span>(84)</span></div>
+            <div class="price">Starting at <strong>$40</strong></div>
+          </div>
+        </article>
+
+        <article class="gig" data-title="video editing">
+          <div class="gig-image gradient-three">VIDEO</div>
+          <div class="gig-body">
+            <div class="seller"><div class="avatar">JE</div><div><b>Jay Edits</b><small>Top Rated Seller</small></div></div>
+            <h3>I will professionally edit your YouTube or social media videos</h3>
+            <div class="rating">★ 4.8 <span>(203)</span></div>
+            <div class="price">Starting at <strong>$20</strong></div>
+          </div>
+        </article>
+
+        <article class="gig" data-title="virtual assistant data entry">
+          <div class="gig-image gradient-four">VA</div>
+          <div class="gig-body">
+            <div class="seller"><div class="avatar">SA</div><div><b>Sarah Assist</b><small>Level 2 Seller</small></div></div>
+            <h3>I will be your virtual assistant for data entry and research</h3>
+            <div class="rating">★ 4.9 <span>(96)</span></div>
+            <div class="price">Starting at <strong>$10</strong></div>
+          </div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults">No services found. Try another search.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">Skill<span>Hub</span></div>
+    <p>© 2026 SkillHub. A freelance marketplace concept.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
